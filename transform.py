@@ -13,8 +13,6 @@ def transform_apod_data(apod_data):
 
     if hdurl is None:
             hdurl = url
-    else:
-            hdurl = hdurl
 
     transformed_data = {
         "title": apod_data.get("title"),
